@@ -1,16 +1,16 @@
 spring: 
   profiles: 
-  active:
-  - dev
+    active:
+    - dev
 
 --- 
-spring:
-  profiles:dev
-  application:
+spring: 
+  profiles: dev
+  application: 
     name:  springcloud-config-jd-dev
 
 --- 
-spring:
-  profiles:test
-  application:
+spring: 
+  profiles: test
+  application: 
     name:  springcloud-config-jd-test
